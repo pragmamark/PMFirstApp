@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		601B53901578095B00786174 /* PMFADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601B53811578095B00786174 /* PMFADetailViewController.m */; };
+		601B53911578095B00786174 /* PMFADetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601B53821578095B00786174 /* PMFADetailViewController.xib */; };
+		601B53921578095B00786174 /* PMFAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601B53861578095B00786174 /* PMFAHomeViewController.m */; };
+		601B53931578095B00786174 /* PMFAHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601B53871578095B00786174 /* PMFAHomeViewController.xib */; };
+		601B53941578095B00786174 /* PMFAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601B538A1578095B00786174 /* PMFAMasterViewController.m */; };
+		601B53951578095B00786174 /* PMFAMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601B538B1578095B00786174 /* PMFAMasterViewController.xib */; };
+		601B53961578095B00786174 /* PMFAModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601B538E1578095B00786174 /* PMFAModalViewController.m */; };
+		601B53971578095B00786174 /* PMFAModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601B538F1578095B00786174 /* PMFAModalViewController.xib */; };
+		607089ED1576BBEA0065DADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607089EC1576BBEA0065DADB /* UIKit.framework */; };
+		607089EF1576BBEA0065DADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607089EE1576BBEA0065DADB /* Foundation.framework */; };
+		607089F11576BBEA0065DADB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607089F01576BBEA0065DADB /* CoreGraphics.framework */; };
+		607089F71576BBEA0065DADB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 607089F51576BBEA0065DADB /* InfoPlist.strings */; };
+		607089F91576BBEA0065DADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 607089F81576BBEA0065DADB /* main.m */; };
+		60AFCC471576BD2C00172F5F /* PMFAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AFCC461576BD2C00172F5F /* PMFAAppDelegate.m */; };
+		60AFCC7B1576C65500172F5F /* pragma_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 60AFCC7A1576C65500172F5F /* pragma_mark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		601B53801578095B00786174 /* PMFADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMFADetailViewController.h; sourceTree = "<group>"; };
+		601B53811578095B00786174 /* PMFADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMFADetailViewController.m; sourceTree = "<group>"; };
+		601B53821578095B00786174 /* PMFADetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMFADetailViewController.xib; sourceTree = "<group>"; };
+		601B53831578095B00786174 /* PMFADetailViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMFADetailViewControllerDelegate.h; sourceTree = "<group>"; };
+		601B53851578095B00786174 /* PMFAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMFAHomeViewController.h; sourceTree = "<group>"; };
+		601B53861578095B00786174 /* PMFAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMFAHomeViewController.m; sourceTree = "<group>"; };
+		601B53871578095B00786174 /* PMFAHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMFAHomeViewController.xib; sourceTree = "<group>"; };
+		601B53891578095B00786174 /* PMFAMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMFAMasterViewController.h; sourceTree = "<group>"; };
+		601B538A1578095B00786174 /* PMFAMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMFAMasterViewController.m; sourceTree = "<group>"; };
+		601B538B1578095B00786174 /* PMFAMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMFAMasterViewController.xib; sourceTree = "<group>"; };
+		601B538D1578095B00786174 /* PMFAModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMFAModalViewController.h; sourceTree = "<group>"; };
+		601B538E1578095B00786174 /* PMFAModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMFAModalViewController.m; sourceTree = "<group>"; };
+		601B538F1578095B00786174 /* PMFAModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMFAModalViewController.xib; sourceTree = "<group>"; };
+		607089E81576BBEA0065DADB /* PMFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607089EC1576BBEA0065DADB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		607089EE1576BBEA0065DADB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		607089F01576BBEA0065DADB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		607089F41576BBEA0065DADB /* PMFirstApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PMFirstApp-Info.plist"; sourceTree = "<group>"; };
+		607089F61576BBEA0065DADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		607089F81576BBEA0065DADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		607089FA1576BBEA0065DADB /* PMFirstApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PMFirstApp-Prefix.pch"; sourceTree = "<group>"; };
+		60AFCC451576BD2C00172F5F /* PMFAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMFAAppDelegate.h; path = Application/PMFAAppDelegate.h; sourceTree = "<group>"; };
+		60AFCC461576BD2C00172F5F /* PMFAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMFAAppDelegate.m; path = Application/PMFAAppDelegate.m; sourceTree = "<group>"; };
+		60AFCC7A1576C65500172F5F /* pragma_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pragma_mark.png; path = Resources/Images/pragma_mark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607089E51576BBEA0065DADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607089ED1576BBEA0065DADB /* UIKit.framework in Frameworks */,
+				607089EF1576BBEA0065DADB /* Foundation.framework in Frameworks */,
+				607089F11576BBEA0065DADB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		601B537F1578095B00786174 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				601B53801578095B00786174 /* PMFADetailViewController.h */,
+				601B53811578095B00786174 /* PMFADetailViewController.m */,
+				601B53821578095B00786174 /* PMFADetailViewController.xib */,
+				601B53831578095B00786174 /* PMFADetailViewControllerDelegate.h */,
+			);
+			name = Detail;
+			path = Controllers/Detail;
+			sourceTree = "<group>";
+		};
+		601B53841578095B00786174 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				601B53851578095B00786174 /* PMFAHomeViewController.h */,
+				601B53861578095B00786174 /* PMFAHomeViewController.m */,
+				601B53871578095B00786174 /* PMFAHomeViewController.xib */,
+			);
+			name = Home;
+			path = Controllers/Home;
+			sourceTree = "<group>";
+		};
+		601B53881578095B00786174 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				601B53891578095B00786174 /* PMFAMasterViewController.h */,
+				601B538A1578095B00786174 /* PMFAMasterViewController.m */,
+				601B538B1578095B00786174 /* PMFAMasterViewController.xib */,
+			);
+			name = Master;
+			path = Controllers/Master;
+			sourceTree = "<group>";
+		};
+		601B538C1578095B00786174 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				601B538D1578095B00786174 /* PMFAModalViewController.h */,
+				601B538E1578095B00786174 /* PMFAModalViewController.m */,
+				601B538F1578095B00786174 /* PMFAModalViewController.xib */,
+			);
+			name = Modal;
+			path = Controllers/Modal;
+			sourceTree = "<group>";
+		};
+		607089DD1576BBEA0065DADB = {
+			isa = PBXGroup;
+			children = (
+				607089F21576BBEA0065DADB /* PMFirstApp */,
+				607089EB1576BBEA0065DADB /* Frameworks */,
+				607089E91576BBEA0065DADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		607089E91576BBEA0065DADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607089E81576BBEA0065DADB /* PMFirstApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607089EB1576BBEA0065DADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				607089EC1576BBEA0065DADB /* UIKit.framework */,
+				607089EE1576BBEA0065DADB /* Foundation.framework */,
+				607089F01576BBEA0065DADB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607089F21576BBEA0065DADB /* PMFirstApp */ = {
+			isa = PBXGroup;
+			children = (
+				60708A091576BBF50065DADB /* Application */,
+				60708A0A1576BBFB0065DADB /* Controllers */,
+				60AFCC781576C61500172F5F /* Resources */,
+				607089F31576BBEA0065DADB /* Supporting Files */,
+			);
+			path = PMFirstApp;
+			sourceTree = "<group>";
+		};
+		607089F31576BBEA0065DADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607089F41576BBEA0065DADB /* PMFirstApp-Info.plist */,
+				607089F51576BBEA0065DADB /* InfoPlist.strings */,
+				607089F81576BBEA0065DADB /* main.m */,
+				607089FA1576BBEA0065DADB /* PMFirstApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60708A091576BBF50065DADB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				60AFCC451576BD2C00172F5F /* PMFAAppDelegate.h */,
+				60AFCC461576BD2C00172F5F /* PMFAAppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		60708A0A1576BBFB0065DADB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				601B53841578095B00786174 /* Home */,
+				601B53881578095B00786174 /* Master */,
+				601B537F1578095B00786174 /* Detail */,
+				601B538C1578095B00786174 /* Modal */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		60AFCC781576C61500172F5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60AFCC791576C61C00172F5F /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		60AFCC791576C61C00172F5F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				60AFCC7A1576C65500172F5F /* pragma_mark.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607089E71576BBEA0065DADB /* PMFirstApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60708A061576BBEA0065DADB /* Build configuration list for PBXNativeTarget "PMFirstApp" */;
+			buildPhases = (
+				607089E41576BBEA0065DADB /* Sources */,
+				607089E51576BBEA0065DADB /* Frameworks */,
+				607089E61576BBEA0065DADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PMFirstApp;
+			productName = PMFirstApp;
+			productReference = 607089E81576BBEA0065DADB /* PMFirstApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607089DF1576BBEA0065DADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PMFA;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = pragmamark.org;
+			};
+			buildConfigurationList = 607089E21576BBEA0065DADB /* Build configuration list for PBXProject "PMFirstApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 607089DD1576BBEA0065DADB;
+			productRefGroup = 607089E91576BBEA0065DADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607089E71576BBEA0065DADB /* PMFirstApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607089E61576BBEA0065DADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607089F71576BBEA0065DADB /* InfoPlist.strings in Resources */,
+				60AFCC7B1576C65500172F5F /* pragma_mark.png in Resources */,
+				601B53911578095B00786174 /* PMFADetailViewController.xib in Resources */,
+				601B53931578095B00786174 /* PMFAHomeViewController.xib in Resources */,
+				601B53951578095B00786174 /* PMFAMasterViewController.xib in Resources */,
+				601B53971578095B00786174 /* PMFAModalViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607089E41576BBEA0065DADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607089F91576BBEA0065DADB /* main.m in Sources */,
+				60AFCC471576BD2C00172F5F /* PMFAAppDelegate.m in Sources */,
+				601B53901578095B00786174 /* PMFADetailViewController.m in Sources */,
+				601B53921578095B00786174 /* PMFAHomeViewController.m in Sources */,
+				601B53941578095B00786174 /* PMFAMasterViewController.m in Sources */,
+				601B53961578095B00786174 /* PMFAModalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		607089F51576BBEA0065DADB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607089F61576BBEA0065DADB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60708A041576BBEA0065DADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60708A051576BBEA0065DADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60708A071576BBEA0065DADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMFirstApp/PMFirstApp-Prefix.pch";
+				INFOPLIST_FILE = "PMFirstApp/PMFirstApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60708A081576BBEA0065DADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMFirstApp/PMFirstApp-Prefix.pch";
+				INFOPLIST_FILE = "PMFirstApp/PMFirstApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607089E21576BBEA0065DADB /* Build configuration list for PBXProject "PMFirstApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60708A041576BBEA0065DADB /* Debug */,
+				60708A051576BBEA0065DADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60708A061576BBEA0065DADB /* Build configuration list for PBXNativeTarget "PMFirstApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60708A071576BBEA0065DADB /* Debug */,
+				60708A081576BBEA0065DADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607089DF1576BBEA0065DADB /* Project object */;
+}
