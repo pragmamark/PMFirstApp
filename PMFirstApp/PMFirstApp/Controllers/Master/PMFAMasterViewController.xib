@@ -75,7 +75,6 @@
 						<string key="NSFrame">{{38, 207}, {245, 37}}</string>
 						<reference key="NSSuperview" ref="779764821"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -187,15 +186,6 @@
 					<int key="connectionID">7</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">detailButtonPressed:</string>
-						<reference key="source" ref="619785467"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">3</int>
-					</object>
-					<int key="connectionID">9</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
 						<reference key="source" ref="619785467"/>
@@ -228,8 +218,8 @@
 						<reference key="object" ref="779764821"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="904433233"/>
-							<reference ref="619785467"/>
 							<reference ref="825602331"/>
+							<reference ref="619785467"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>

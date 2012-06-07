@@ -9,6 +9,7 @@
 #import "PMFAAppDelegate.h"
 
 #import "PMFAHomeViewController.h"
+#import "PMFATableViewController.h"
 
 @implementation PMFAAppDelegate
 
@@ -24,11 +25,21 @@
 {
 	self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
 	// Override point for customization after application launch.
-	
-    PMFAHomeViewController *homeViewController = [[[PMFAHomeViewController alloc] initWithNibName:@"PMFAHomeViewController" bundle:nil] autorelease];
-    UINavigationController *navigationController = [[[UINavigationController alloc] initWithRootViewController:homeViewController] autorelease];
     
-	self.window.rootViewController	= navigationController;
+    PMFAHomeViewController *homeViewController = [[[PMFAHomeViewController alloc] initWithNibName:@"PMFAHomeViewController" bundle:nil] autorelease];
+    UINavigationController *navigationController1 = [[[UINavigationController alloc] initWithRootViewController:homeViewController] autorelease];
+    
+    navigationController1.tabBarItem.title = @"Home";
+    
+    PMFATableViewController *tableViewController = [[[PMFATableViewController alloc] initWithNibName:@"PMFATableViewController" bundle:nil] autorelease];
+    UINavigationController *navigationController2 = [[[UINavigationController alloc] initWithRootViewController:tableViewController] autorelease];
+    
+    navigationController2.tabBarItem.title = @"TableView";
+    
+    UITabBarController *tabBarController = [[[UITabBarController alloc] init] autorelease];
+    tabBarController.viewControllers = [NSArray arrayWithObjects:navigationController1, navigationController2, nil];
+    
+	self.window.rootViewController	= tabBarController;
 	[self.window makeKeyAndVisible];
 	return YES;
 }

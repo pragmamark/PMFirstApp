@@ -14,13 +14,15 @@
 
 @implementation PMFADetailViewController
 
-#pragma mark - Properties
+#pragma mark -
+#pragma mark Properties
 
 @synthesize detailLabel		= _detailLabel;
 @synthesize detailString	= _detailString;
 @synthesize delegate		= _delegate;
 
-#pragma mark - View life cycle
+#pragma mark -
+#pragma mark View life cycle
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -69,7 +71,8 @@
 	return interfaceOrientation == UIInterfaceOrientationPortrait;
 }
 
-#pragma mark - Memory management
+#pragma mark -
+#pragma mark Memory management
 
 - (void)viewDidUnload
 {

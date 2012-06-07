@@ -15,6 +15,10 @@
 		601B53951578095B00786174 /* PMFAMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601B538B1578095B00786174 /* PMFAMasterViewController.xib */; };
 		601B53961578095B00786174 /* PMFAModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601B538E1578095B00786174 /* PMFAModalViewController.m */; };
 		601B53971578095B00786174 /* PMFAModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601B538F1578095B00786174 /* PMFAModalViewController.xib */; };
+		602FA0AD158130A400C106FE /* PMFATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602FA0AB158130A400C106FE /* PMFATableViewController.m */; };
+		602FA0AE158130A400C106FE /* PMFATableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602FA0AC158130A400C106FE /* PMFATableViewController.xib */; };
+		602FA0B21581395500C106FE /* PMFACustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 602FA0B11581395500C106FE /* PMFACustomCell.m */; };
+		602FA0B41581398400C106FE /* PMFACustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602FA0B31581398400C106FE /* PMFACustomCell.xib */; };
 		607089ED1576BBEA0065DADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607089EC1576BBEA0065DADB /* UIKit.framework */; };
 		607089EF1576BBEA0065DADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607089EE1576BBEA0065DADB /* Foundation.framework */; };
 		607089F11576BBEA0065DADB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607089F01576BBEA0065DADB /* CoreGraphics.framework */; };
@@ -38,6 +42,12 @@
 		601B538D1578095B00786174 /* PMFAModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMFAModalViewController.h; sourceTree = "<group>"; };
 		601B538E1578095B00786174 /* PMFAModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMFAModalViewController.m; sourceTree = "<group>"; };
 		601B538F1578095B00786174 /* PMFAModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMFAModalViewController.xib; sourceTree = "<group>"; };
+		602FA0AA158130A400C106FE /* PMFATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMFATableViewController.h; path = Controllers/Table/PMFATableViewController.h; sourceTree = "<group>"; };
+		602FA0AB158130A400C106FE /* PMFATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMFATableViewController.m; path = Controllers/Table/PMFATableViewController.m; sourceTree = "<group>"; };
+		602FA0AC158130A400C106FE /* PMFATableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMFATableViewController.xib; path = Controllers/Table/PMFATableViewController.xib; sourceTree = "<group>"; };
+		602FA0B01581395500C106FE /* PMFACustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMFACustomCell.h; path = Views/PMFACustomCell.h; sourceTree = "<group>"; };
+		602FA0B11581395500C106FE /* PMFACustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMFACustomCell.m; path = Views/PMFACustomCell.m; sourceTree = "<group>"; };
+		602FA0B31581398400C106FE /* PMFACustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PMFACustomCell.xib; path = Views/PMFACustomCell.xib; sourceTree = "<group>"; };
 		607089E81576BBEA0065DADB /* PMFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607089EC1576BBEA0065DADB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		607089EE1576BBEA0065DADB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -110,6 +120,26 @@
 			path = Controllers/Modal;
 			sourceTree = "<group>";
 		};
+		602FA0A81581307D00C106FE /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				602FA0AA158130A400C106FE /* PMFATableViewController.h */,
+				602FA0AB158130A400C106FE /* PMFATableViewController.m */,
+				602FA0AC158130A400C106FE /* PMFATableViewController.xib */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		602FA0AF1581392400C106FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				602FA0B01581395500C106FE /* PMFACustomCell.h */,
+				602FA0B11581395500C106FE /* PMFACustomCell.m */,
+				602FA0B31581398400C106FE /* PMFACustomCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		607089DD1576BBEA0065DADB = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +170,7 @@
 		607089F21576BBEA0065DADB /* PMFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				602FA0AF1581392400C106FE /* Views */,
 				60708A091576BBF50065DADB /* Application */,
 				60708A0A1576BBFB0065DADB /* Controllers */,
 				60AFCC781576C61500172F5F /* Resources */,
@@ -171,6 +202,7 @@
 		60708A0A1576BBFB0065DADB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				602FA0A81581307D00C106FE /* Table */,
 				601B53841578095B00786174 /* Home */,
 				601B53881578095B00786174 /* Master */,
 				601B537F1578095B00786174 /* Detail */,
@@ -253,6 +285,8 @@
 				601B53931578095B00786174 /* PMFAHomeViewController.xib in Resources */,
 				601B53951578095B00786174 /* PMFAMasterViewController.xib in Resources */,
 				601B53971578095B00786174 /* PMFAModalViewController.xib in Resources */,
+				602FA0AE158130A400C106FE /* PMFATableViewController.xib in Resources */,
+				602FA0B41581398400C106FE /* PMFACustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +303,8 @@
 				601B53921578095B00786174 /* PMFAHomeViewController.m in Sources */,
 				601B53941578095B00786174 /* PMFAMasterViewController.m in Sources */,
 				601B53961578095B00786174 /* PMFAModalViewController.m in Sources */,
+				602FA0AD158130A400C106FE /* PMFATableViewController.m in Sources */,
+				602FA0B21581395500C106FE /* PMFACustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

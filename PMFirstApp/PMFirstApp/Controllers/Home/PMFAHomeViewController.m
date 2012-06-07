@@ -16,11 +16,13 @@
 
 @implementation PMFAHomeViewController
 
-#pragma mark - Properties
+#pragma mark -
+#pragma mark Properties
 
 @synthesize nameLabel = _nameLabel;
 
-#pragma mark - View life cycle
+#pragma mark -
+#pragma mark View life cycle
 
 - (void)viewDidLoad
 {
@@ -44,7 +46,8 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-#pragma mark - Memory management
+#pragma mark -
+#pragma mark Memory management
 
 - (void)viewDidUnload
 {
@@ -61,7 +64,8 @@
     [super dealloc];
 }
 
-#pragma mark - IBActions
+#pragma mark -
+#pragma mark IBActions
 
 - (IBAction)modalButtonPressed:(id)sender
 {
@@ -89,7 +93,8 @@
     [self.navigationController pushViewController:masterController animated:YES];
 }
 
-#pragma mark - PMFADetailViewControllerDelegate
+#pragma mark -
+#pragma mark PMFADetailViewControllerDelegate
 
 - (void)didCorfimName:(NSString *)name
 {

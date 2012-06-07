@@ -15,12 +15,14 @@
 
 @implementation PMFAMasterViewController
 
-#pragma mark _ Properties
+#pragma mark -
+#pragma mark Properties
 
 @synthesize inputTextField	= _inputTextField;
 @synthesize delegate		= _delegate;
 
-#pragma mark - View life cycle
+#pragma mark -
+#pragma mark View life cycle
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -44,8 +46,6 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
-    [_inputTextField becomeFirstResponder];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -53,7 +53,8 @@
 	return interfaceOrientation == UIInterfaceOrientationPortrait;
 }
 
-#pragma mark - Memory management
+#pragma mark -
+#pragma mark Memory management
 
 - (void)viewDidUnload
 {
@@ -73,7 +74,8 @@
 	[super dealloc];
 }
 
-#pragma mark - IBActions
+#pragma mark -
+#pragma mark IBActions
 
 - (IBAction)detailButtonPressed:(id)sender
 {
@@ -99,7 +101,8 @@
 	[self.navigationController pushViewController:detailController animated:YES];
 }
 
-#pragma mark - UIAlertViewDelegate
+#pragma mark -
+#pragma mark UIAlertViewDelegate
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
@@ -121,7 +124,8 @@
     }
 }
 
-#pragma mark - UITextFieldDelegate
+#pragma mark -
+#pragma mark UITextFieldDelegate
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
@@ -130,7 +134,8 @@
 	return YES;
 }
 
-#pragma mark - PMFADetailViewControllerDelegate
+#pragma mark -
+#pragma mark PMFADetailViewControllerDelegate
 
 - (void)didCorfimName:(NSString *)name
 {

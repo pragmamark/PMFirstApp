@@ -14,6 +14,9 @@
 
 @implementation PMFAModalViewController
 
+#pragma mark -
+#pragma mark View life cycle
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -29,6 +32,14 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+#pragma mark -
+#pragma mark Memory management
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -36,10 +47,8 @@
     // e.g. self.myOutlet = nil;
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
+#pragma mark -
+#pragma mark IBAcrions
 
 - (IBAction)backButtonPressed:(id)sender 
 {
